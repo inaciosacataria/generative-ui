@@ -166,7 +166,7 @@ Host your own live version of thecode with Vercel, Cloudflare Pages, or Docker.
 Prebuilt Docker images are available on GitHub Container Registry:
 
 ```bash
-docker pull ghcr.io/miurla/thecode:latest
+docker pull ghcr.io/miurla/morphic:latest
 ```
 
 You can use it with docker-compose:
@@ -174,7 +174,7 @@ You can use it with docker-compose:
 ```yaml
 services:
   thecode:
-    image: ghcr.io/miurla/thecode:latest
+    image: ghcr.io/miurla/morphic:latest
     env_file: .env.local
     ports:
       - '3000:3000'
