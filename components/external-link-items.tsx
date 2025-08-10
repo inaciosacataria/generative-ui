@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+
 import { SiDiscord, SiGithub, SiX } from 'react-icons/si'
 
 import { DropdownMenuItem } from '@/components/ui/dropdown-menu'
