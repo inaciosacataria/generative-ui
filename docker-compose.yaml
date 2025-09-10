@@ -1,8 +1,8 @@
-# Docker Compose configuration for the thecode-stack development environment
+# Docker Compose configuration for the Tablutech-stack development environment
 
-name: thecode-stack
+name: Tablutech-stack
 services:
-  thecode:
+  Tablutech:
     image: ghcr.io/${GITHUB_REPOSITORY:-your-username/morphic}:latest
     command: bun start -H 0.0.0.0
     build:

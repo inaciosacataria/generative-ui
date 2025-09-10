@@ -1,6 +1,6 @@
 # Configuration Guide
 
-This guide covers the optional features and their configuration in thecode.
+This guide covers the optional features and their configuration in Tablutech.
 
 ## Table of Contents
 

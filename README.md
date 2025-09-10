@@ -1,4 +1,4 @@
-# thecode
+# Tablutech
 
 An AI-powered search engine with a generative UI.
 
@@ -15,7 +15,7 @@ An AI-powered search engine with a generative UI.
 - 👥 [Contributing](#-contributing)
 - 📄 [License](#-license)
 
-📝 Explore AI-generated documentation on [DeepWiki](https://deepwiki.com/miurla/thecode)
+📝 Explore AI-generated documentation on [DeepWiki](https://deepwiki.com/miurla/Tablutech)
 
 ## 🛠 Features
 
@@ -111,13 +111,13 @@ Models are configured in `public/config/models.json`. Each model requires its co
 Fork the repo to your Github account, then run the following command to clone the repo:
 
 ```bash
-git clone git@github.com:[YOUR_GITHUB_ACCOUNT]/thecode.git
+git clone git@github.com:[YOUR_GITHUB_ACCOUNT]/Tablutech.git
 ```
 
 ### 2. Install dependencies
 
 ```bash
-cd thecode
+cd Tablutech
 bun install
 ```
 
@@ -155,11 +155,11 @@ Visit http://localhost:3000 in your browser.
 
 ## 🌐 Deploy
 
-Host your own live version of thecode with Vercel, Cloudflare Pages, or Docker.
+Host your own live version of Tablutech with Vercel, Cloudflare Pages, or Docker.
 
 ### Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiurla%2Fthecode&env=OPENAI_API_KEY,TAVILY_API_KEY,UPSTASH_REDIS_REST_URL,UPSTASH_REDIS_REST_TOKEN)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmiurla%2FTablutech&env=OPENAI_API_KEY,TAVILY_API_KEY,UPSTASH_REDIS_REST_URL,UPSTASH_REDIS_REST_TOKEN)
 
 ### Docker Prebuilt Image
 
@@ -173,7 +173,7 @@ You can use it with docker-compose:
 
 ```yaml
 services:
-  thecode:
+  Tablutech:
     image: ghcr.io/miurla/morphic:latest
     env_file: .env.local
     ports:
@@ -188,20 +188,20 @@ The default model configuration is located at `public/config/models.json`. For D
 
 ### Setting up the Search Engine in Your Browser
 
-If you want to use thecode as a search engine in your browser, follow these steps:
+If you want to use Tablutech as a search engine in your browser, follow these steps:
 
 1. Open your browser settings.
 2. Navigate to the search engine settings section.
 3. Select "Manage search engines and site search".
 4. Under "Site search", click on "Add".
 5. Fill in the fields as follows:
-   - **Search engine**: thecode
-   - **Shortcut**: thecode
-   - **URL with %s in place of query**: `https://thecode.sh/search?q=%s`
+   - **Search engine**: Tablutech
+   - **Shortcut**: Tablutech
+   - **URL with %s in place of query**: `https://Tablutech.sh/search?q=%s`
 6. Click "Add" to save the new search engine.
-7. Find "thecode" in the list of site search, click on the three dots next to it, and select "Make default".
+7. Find "Tablutech" in the list of site search, click on the three dots next to it, and select "Make default".
 
-This will allow you to use thecode as your default search engine in the browser.
+This will allow you to use Tablutech as your default search engine in the browser.
 
 ## 💙 Sponsors
 
@@ -213,7 +213,7 @@ This project is proudly supported by:
 
 ## 👥 Contributing
 
-We welcome contributions to thecode! Whether it's bug reports, feature requests, or pull requests, all contributions are appreciated.
+We welcome contributions to Tablutech! Whether it's bug reports, feature requests, or pull requests, all contributions are appreciated.
 
 Please see our [Contributing Guide](CONTRIBUTING.md) for details on:
 

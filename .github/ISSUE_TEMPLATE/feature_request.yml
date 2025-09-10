@@ -1,15 +1,15 @@
 name: ✨ Feature Request
-description: Propose a new feature for thecode.
+description: Propose a new feature for Tablutech.
 labels: []
 body:
   - type: markdown
     attributes:
       value: |
-        This template is to propose new features for thecode. Please fill out the following information to help us understand your feature request.
+        This template is to propose new features for Tablutech. Please fill out the following information to help us understand your feature request.
   - type: textarea
     attributes:
       label: Feature Description
-      description: A detailed description of the feature you are proposing for thecode. Include any relevant technical details.
+      description: A detailed description of the feature you are proposing for Tablutech. Include any relevant technical details.
       placeholder: |
         Feature description...
     validations:
